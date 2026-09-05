@@ -5,9 +5,9 @@
 
 **Hipotez:** Geleneksel yöntemler (Isolation Forest, One-Class SVM) hızlı ama yeterince doğru değil; standart derin öğrenme (Autoencoder) doğru ama backpropagation nedeniyle yavaş/hesaplama maliyeti yüksek. **Backpropagation-free** derin öğrenme yöntemleri (PatchCore, PaDiM) hem yüksek doğruluk hem düşük hesaplama maliyeti sağlayabilir mi?
 
-**Sonuç:** Hipotez doğrulandı — **PatchCore ve PaDiM, standart bir Autoencoder'a kıyasla çok daha az hesaplama süresiyle %98'in üzerinde AUROC** elde etti, geleneksel yöntemleri hem hız hem doğrulukta geride bıraktı.
+**Sonuç:** Hipotez doğrulandı. **PatchCore ve PaDiM, standart bir Autoencoder'a kıyasla çok daha az hesaplama süresiyle %98'in üzerinde AUROC elde etti** ve geleneksel yöntemleri hem hız hem doğrulukta geride bıraktı.
 
-**Karşılaştırılan 5 yöntem:** Isolation Forest ve One-Class SVM (geleneksel ML), Autoencoder (backpropagation ile derin öğrenme), PaDiM ve PatchCore (backpropagation-free derin öğrenme). Veri seti: MVTec AD (bottle, carpet, hazelnut kategorileri) — endüstriyel kusur tespiti için standart akademik benchmark.
+**Karşılaştırılan 5 yöntem:** Isolation Forest ve One-Class SVM (geleneksel ML), Autoencoder (backpropagation ile derin öğrenme), PaDiM ve PatchCore (backpropagation-free derin öğrenme). Veri seti: MVTec AD (bottle, carpet, hazelnut kategorileri), endüstriyel kusur tespiti için standart akademik benchmark.
 
 Klasör yapısı, veri seti notu ve araçlar için aşağıdaki İngilizce bölümlere bakılabilir (tablo/kod/isimler zaten dil bağımsız).
 
@@ -17,7 +17,7 @@ Klasör yapısı, veri seti notu ve araçlar için aşağıdaki İngilizce böl�
 
 ## Result
 
-Hypothesis confirmed: **PatchCore and PaDiM achieve over 98% AUROC with far less compute than a standard Autoencoder** — outperforming the traditional methods on both speed and accuracy.
+Hypothesis confirmed. **PatchCore and PaDiM achieve over 98% AUROC with far less compute than a standard Autoencoder**, outperforming the traditional methods on both speed and accuracy.
 
 ## 5 Methods Compared
 
@@ -29,7 +29,7 @@ Hypothesis confirmed: **PatchCore and PaDiM achieve over 98% AUROC with far less
 | PaDiM | Deep learning, backpropagation-free (pretrained feature extractor + statistical modeling) |
 | PatchCore | Deep learning, backpropagation-free (memory-bank based) |
 
-**Dataset:** MVTec AD (bottle, carpet, hazelnut categories) — the standard academic benchmark for industrial defect detection.
+**Dataset:** MVTec AD (bottle, carpet, hazelnut categories), the standard academic benchmark for industrial defect detection.
 
 ## Folder Structure
 

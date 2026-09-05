@@ -1,0 +1,5 @@
+LFD_Project/dataset/
+LFD_Project/anomalib_patchcore/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

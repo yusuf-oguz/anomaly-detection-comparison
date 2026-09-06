@@ -40,15 +40,15 @@ Hypothesis confirmed. **PatchCore and PaDiM achieve over 98% AUROC with far less
 ├── ALL CODES/           # separate notebook per method
 ├── ALL RESULTS/         # per-method results + comparison tables/charts
 │   └── TABLES-CHARTS/     # overall comparison tables and bar charts
-├── LFD_Project/
+├── model_checkpoints/
 │   └── anomalib_patchcore/  # PatchCore's trained model weights (multiple runs)
-├── LFD_FINAL_REPORT.pdf   # written final report
-└── LFD-PRESENTATION.pdf/.pptx/.mp4  # presentation + recording
+├── final_report.pdf     # written final report
+└── presentation.pptx/.mp4  # presentation + recording
 ```
 
 ## Dataset Note
 
-`LFD_Project/dataset/` is deliberately excluded from this repo. It's [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad), a public, freely downloadable standard academic dataset, not self-generated data. The code expects the dataset's `bottle/`, `carpet/`, `hazelnut/` subfolders under `LFD_Project/dataset/` at the project root.
+`model_checkpoints/dataset/` is deliberately excluded from this repo. It's [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad), a public, freely downloadable standard academic dataset, not self-generated data. The notebooks expect the dataset's `bottle/`, `carpet/`, `hazelnut/` subfolders under that path at the project root (they were originally run in Google Colab against a Google Drive path, so re-running them locally would need the data paths updated first).
 
 ## Tools
 

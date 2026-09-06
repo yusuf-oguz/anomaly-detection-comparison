@@ -46,8 +46,8 @@ Hypothesis confirmed. **PatchCore and PaDiM achieve over 98% AUROC with far less
 
 ## Dataset Note
 
-`LFD_Project/dataset/` is deliberately excluded from this repo — it's [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad), a public, freely downloadable standard academic dataset (not self-generated data). The code expects the dataset's `bottle/`, `carpet/`, `hazelnut/` subfolders under `LFD_Project/dataset/` at the project root.
+`LFD_Project/dataset/` is deliberately excluded from this repo. It's [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad), a public, freely downloadable standard academic dataset, not self-generated data. The code expects the dataset's `bottle/`, `carpet/`, `hazelnut/` subfolders under `LFD_Project/dataset/` at the project root.
 
 ## Tools
 
-Python — [anomalib](https://github.com/openvinotoolkit/anomalib) (PatchCore/PaDiM), scikit-learn (Isolation Forest, One-Class SVM), PyTorch (Autoencoder).
+Python, [anomalib](https://github.com/openvinotoolkit/anomalib) for PatchCore/PaDiM, scikit-learn for Isolation Forest and One-Class SVM, PyTorch for the Autoencoder.

@@ -13,6 +13,8 @@ Klasör yapısı, veri seti notu ve araçlar için aşağıdaki İngilizce böl�
 
 </details>
 
+---
+
 **Hypothesis:** traditional methods (Isolation Forest, One-Class SVM) are fast but not accurate enough; standard deep learning (Autoencoder) is accurate but slow/computationally expensive due to backpropagation. Can **backpropagation-free** deep learning methods (PatchCore, PaDiM) deliver both high accuracy and low computational cost?
 
 ## Result
